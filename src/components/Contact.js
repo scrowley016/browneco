@@ -1,17 +1,19 @@
 import React from 'react'
-import {Form, Button} from 'react-bootstrap'
+import {Form, Button, Image} from 'react-bootstrap'
 
 
 const Contact =()=>{
     return (
         <div id="contact">
             <div id="titleC">
-                <h1> Please feel free to contact us</h1>
-                <br></br>
+            <Image src="./pictures/artRoof.png" className="line"/>
+            <br></br>
+                <h1> For estimates or questions please feel free to contact us</h1>
                 <h4>By mail: 98 Forest Drive, Orchard Park, NY 14127</h4>
                 <h4>By email: Browneco@verizon.net</h4>
                 <h4>By phone: (716) 667-0802</h4>
                 <br></br>
+                <Image src="./pictures/line.png" className="line"/>
                 <h1>Or we can contact you</h1>
             </div>
 
