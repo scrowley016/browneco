@@ -7,8 +7,7 @@ const Home =()=>{
 
         return(
             <div id="home">
-                <h1>Welcome home!</h1>
-                <Image src="./pictures/homeImage.jpg" className="responsiveH" fluid />
+                <Image src="./pictures/home.png" className="responsiveH" fluid />
             </div>
         )
 }
