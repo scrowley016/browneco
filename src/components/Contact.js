@@ -11,6 +11,9 @@ const Contact =()=>{
         <div id="contact">
             <div id="titleC">
             <br></br>
+            <div>
+            <Image src="./pictures/email.png" width="200px" />
+            </div>
                 <h1> To contact us</h1>
                 <br></br>
                 <h4>By Mail: 98 Forest Drive, Orchard Park, NY 14127</h4>
