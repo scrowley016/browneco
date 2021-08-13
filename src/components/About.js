@@ -15,7 +15,6 @@ const About =()=>{
                 <Image src="./pictures/line.png" className="line"/>
                 <p class="aboutP">
                 Well known in the Western New York construction community, Mr. Browne has looked atthousands of roofs in his career.  A professional member of the International Institute of Building Envelope Consultants (IIBEC), the National Roofing Contractors Association (NRCA), and the Construction Specifications Institute (CSI). He is an alumnus of the State University of New York at Albany (BA), Buffalo State College (MA Ed.), and Medaille College (MBA). Mr. Browne is also is a certified Construction Documents Technologist (CDT) through the Construction Specifications Institute (CSI).
-
                 </p>
             </div>
             <br></br>

@@ -13,7 +13,7 @@ const NavBar=()=>{
         className="d-inline-block align-top"
         alt="React Bootstrap logo"/>
      </Navbar.Brand>
-  <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+<Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="mr-auto">
       <Nav.Link href="/home">Home</Nav.Link>

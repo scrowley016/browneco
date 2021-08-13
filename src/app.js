@@ -2,7 +2,8 @@ import React from 'react'
 import {
     BrowserRouter as Router,
     Link,
-    Route
+    Route,
+    Switch
   } from 'react-router-dom'
 
 import Navbar from "./components/Navbar"
@@ -14,6 +15,7 @@ import Contact from "./components/Contact"
 const App = () => {
   return (
     <Router>
+      <Switch>
     <div>
       <Navbar/>
       <Route exact path="/home">
@@ -31,7 +33,9 @@ const App = () => {
       <Route exact path="/">
           <Home />
     </Route>
+   
     </div>
+    </Switch>
     </Router>
   )
 }
