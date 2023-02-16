@@ -8,7 +8,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "react-scripts start"
+    "start:qa": "react-scripts start",
+    "start": "node index.js"
   },
   "author": "",
   "license": "ISC",
